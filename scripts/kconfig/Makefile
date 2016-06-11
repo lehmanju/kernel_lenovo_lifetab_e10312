@@ -204,7 +204,7 @@ ifeq ($(gconf-target),1)
 endif
 
 clean-files	:= lkc_defs.h qconf.moc .tmp_qtcheck .tmp_gtkcheck
-clean-files	+= zconf.tab.c lex.zconf.c zconf.hash.c gconf.glade.h
+clean-files	+= gconf.glade.h
 clean-files     += mconf qconf gconf nconf
 clean-files     += config.pot linux.pot
 
